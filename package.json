@@ -1,0 +1,32 @@
+{
+  "name": "lalit-colorize",
+  "version": "1.0.0",
+  "description": "A library to colorify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lalitchaudhary01/lalit-colorize.git"
+  },
+  "keywords": [
+    "console log colors"
+  ],
+  "author": "Lalit chaudhary <lalitkumar46789@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lalitchaudhary01/lalit-colorize.git/issues"
+  },
+  "homepage": "https://github.com/Lalitchaudhary01/lalit-colorize.git#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "files": [
+    "lib/**/*"]
+}
